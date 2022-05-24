@@ -1,8 +1,23 @@
 ## MUSEO VIRTUAL ANIMALES EN PELIGRO DE EXTINSIÓN
 
+ Nuestro sitio fue desplegado éxitosamente, puedes encontrarlo  <a href="https://blueextinction.azurewebsites.net/" target="_blank"> AQUÍ </a>
+
+
 Proyecto que pretende que de manera interactiva los usuarios tengan acceso a información de interés sobre los animales maniros en peligro de extinguirse. Creemos que si los usuarios se familiarizan con ellos, podrán crear conciencia y se puede iniciar la conversación sobre el que debemos hacer para cuidarlos, como podemos ayudar y por qué afecta a el ecosistema que estos animales se extingan.
 
 Nuestra intención es crear una sitio web donde los usuarios puedan observar información como primera fase el diseño solo busca informar y presentar la información requerida. La segunda parte de este proyecto es la creación de una API, con datos de estos animalitos, para que más desarrolladores puedan aplicarlo a su proyecto.
+
+### Integrantes del Equipo Museo Virtual Blue Extinction ###
+----FrontEnd----
+
+*José Dimas Alejandro Espinosa Razo*  
+*Pablo Yael Soto*
+
+----BackEnd----
+
+*Angel David Moreno Guzmán*  
+*Martin Otamendi Torres*  
+*Guadalupe Gachupin García*  
 
 ### Requerimientos
 
@@ -16,10 +31,6 @@ Nuestra intención es crear una sitio web donde los usuarios puedan observar inf
 1. Delimitación de los atributos de la bd
 2. Creación de la b.d
 3. Conexión a la bd
-
-
-<img width="1000" alt="image" src=""https://github.com/GrisGGG/Museo-Virtual-/blob/main/assets/servidor-corriendo.png?raw=true>
-
 4. Creación de enpoints para la consulta de datos  `animalesMarinos.Controller`
 
 | Endpoint | Método | Response |
@@ -29,26 +40,37 @@ Nuestra intención es crear una sitio web donde los usuarios puedan observar inf
 | `/` | `POST` | Habilitar un endpoint para agregar animalitos. |
 | `/:id` | `POST` | Endport para borrar animalitos segun su id|
 
-4. Conexión y modelo de la API a la bd
-5.  Despliegue del sitio
-6. Despiegue de la API
+5. Conexión y modelo de la API a la bd
+6.  Despliegue del sitio
+7. Despiegue de la API
 
 ### Estructura del proyecto
 
 #### Frontend
 
+
+<img width="1247" alt="image" src="https://github.com/GrisGGG/Museo-Virtual-/blob/main/assets/directorios-frontend.png?raw=true">
+
+
 #### Backend
 API
 <img width="1247" alt="image" src="https://github.com/GrisGGG/Museo-Virtual-/blob/main/assets/Directorios.png?raw=true">
 
+### El proyecto funciona así
+
+
+<img width="1247" alt="image" src="https://github.com/GrisGGG/Museo-Virtual-/blob/main/assets/DiagramaProyecto.png?raw=true">
+
+
+
 ### Tecnologias Utilizadas 
-1. html
-2. css
+1. Html
+2. Css
 3. Express
 4. tedious
-5. cors
-6. sql azure
-7. desplegamos la aplicación en azure
+5. Cors
+6. Sql azure
+7. Azure Services
 
 
 
@@ -104,7 +126,7 @@ API
    
    
 7. Despliegue del sitio
-  Nuestro sitio fue desplegado éxitosamente, puedes encontrarlo  <a href="https://blueextinction.azurewebsites.net/" target="_blank"> AQUÍ </>
+  Nuestro sitio fue desplegado éxitosamente, puedes encontrarlo  <a href="https://blueextinction.azurewebsites.net/" target="_blank"> AQUÍ </a>
   
 
 
